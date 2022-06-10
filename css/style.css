@@ -73,3 +73,72 @@ html {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   background-color: #f55800;
 }
+
+/***************************** Cards****************************** */
+.section-work{
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+@media screen and (max-width:990px){
+  .section-work{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+@media screen and (max-width:520px){
+  .section-work{
+    display: grid;
+    grid-template-columns: 36rem;
+    margin-left: 6rem;
+  }
+}
+.card1 {
+  background-image: url(../images/card1.svg);
+}
+.card2 {
+  background-image: url(../images/card2.svg);
+}
+.card3 {
+  background-image: url(../images/card3.svg);
+}
+.card4 {
+  background-image: url(../images/card4.svg);
+}
+.card {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 43rem;
+}
+.card-h5{
+  font-family: 'Crete Round';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+}
+.card-p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+}
+.list-skill{
+  background: rgba(255, 255, 255, 0.24);
+}
+.link-project{
+  height: 48px;
+  background: #fc7617;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 38rem;
+}
