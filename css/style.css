@@ -34,3 +34,16 @@ html {
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   color: #f4f5f7;
 }
+
+.header-1{
+  color: #091E42;
+  font-family: 'Crete Round';
+}
+
+.hr-line{
+  width: 80%;
+}
+
+.works{
+  padding: 120px 0;
+}
