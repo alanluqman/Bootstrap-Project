@@ -44,11 +44,11 @@ html {
 }
 
 .header-1 {
-  color: #091E42;
-  font-family: 'Crete Round';
+  color: #091e42;
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
 }
 
-@media screen and (min-width:990px) {
+@media screen and (min-width: 990px) {
   .heading-social-links {
     order: 0;
   }
@@ -58,7 +58,7 @@ html {
   }
 }
 
-@media screen and (max-width:990px) {
+@media screen and (max-width: 990px) {
   .heading-title {
     font-size: 5.2rem;
   }
@@ -144,8 +144,9 @@ html {
   background-repeat: no-repeat;
   height: 43rem;
 }
+
 .card-h5 {
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
@@ -153,7 +154,7 @@ html {
 }
 
 .card-p {
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -167,7 +168,7 @@ html {
 .link-project {
   height: 48px;
   background: #fc7617;
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 17px;
@@ -182,7 +183,7 @@ html {
 }
 
 .contact-p {
-  font-family: 'Inter';
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -217,7 +218,7 @@ html {
 
 .contact-input {
   border: none;
-  border-bottom: 1px solid #DBD8D7;
+  border-bottom: 1px solid #dbd8d7;
   font-size: 2rem;
   color: #979493;
   outline: none;
@@ -228,13 +229,13 @@ html {
   color: #979493;
   outline: none;
   border: none;
-  border-bottom: 1px solid #DBD8D7;
-  background-color: #FBF8F7;
+  border-bottom: 1px solid #dbd8d7;
+  background-color: #fbf8f7;
 }
 
 .contact-button {
   font-size: 2rem;
-  background: #F55800;
+  background: #f55800;
   border: none;
 }
 
@@ -243,7 +244,7 @@ html {
 }
 
 .unordered-line {
-  border-top: 1px solid #505F79;
+  border-top: 1px solid #505f79;
 }
 
 @media screen and (max-width: 520px) {
