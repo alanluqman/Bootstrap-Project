@@ -26,17 +26,20 @@ html {
 
 .heading-title {
   font-size: 7.2rem;
+  height: fit-content;
   font-family: 'Crete Round', Arial, Helvetica, sans-serif;
 }
 
 .sub-heading-title {
   font-size: 3.2rem;
+  height: fit-content;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
 
 }
 
 .heading-description {
   font-size: 2rem;
+  height: fit-content;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   color: #f4f5f7;
 }
@@ -61,6 +64,7 @@ html {
 }
 
 .work-feature-item {
+  height: fit-content;
   font-size: 1.5rem;
   font-weight: 500;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
@@ -70,6 +74,7 @@ html {
   font-size: 2.4rem;
   font-weight: 700;
   width: fit-content;
+  height: fit-content;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   background-color: #f55800;
 }
