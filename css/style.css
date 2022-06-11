@@ -71,8 +71,6 @@ html {
   .heading-description {
     font-size: 1.6rem;
   }
-
-   
 }
 
 
@@ -120,7 +118,7 @@ html {
 @media screen and (max-width:520px){
   .section-work{
     display: grid;
-    grid-template-columns: 36rem;
+    grid-template-columns: 1fr;
     margin-left: 6rem;
   }
 }
@@ -196,7 +194,6 @@ html {
   .contact-p{
     font-size: 29px;
     text-align: center;
-    width: 500px;
   }
 }
 

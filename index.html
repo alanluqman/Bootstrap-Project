@@ -129,7 +129,7 @@
         </div>
     </div>
 </section>
-<section class="container section-work gap-4 my-5 m-auto">
+<section class="container-fluid section-work gap-4 my-5 m-auto">
         <div class="card card1">
             <a href="#" class="btn btn-submit link-project">See project</a>
         </div>
@@ -252,13 +252,13 @@
         </div>
     </div>
 </section>
-<section class="container contact">
-    <div class="row">
-        <div class="col-lg-6">
-            <p class="contact-p">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
+<section class="container-fluid contact">
+    <div class="d-flex flex-column flex-lg-row">
+        <div class=" col-lg-6"> 
+            <p class="contact-p p-5">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>
         </div>
-        <div class="col-lg-6">
-            <form class="row g-3 contact-form">
+        <div class="col-lg-6 d-flex justify-content-center">
+            <form class="row g-3 contact-form w-75">
                 <div class="col-md-6">
                   <label for="Password" class="form-label">
                   <input type="text" class="contact-input w-100" id="inputPassword" placeholder="Enter your first name..." required>
@@ -269,17 +269,18 @@
                 </div>
                 <div class="col-12">
                   <label for="inputAddress" class="form-label">
-                  <textarea name="text" id="" class="contact-text" cols="55" rows="5" placeholder="Enter text..." required maxlength="30"></textarea>
+                  <textarea name="text" id="" class="contact-text w-100" cols="55" rows="5" placeholder="Enter text..." required maxlength="30"></textarea>
                 </div>
                 <div class="col-12">
-                  <button type="submit" class="btn btn-primary py-3 px-4 contact-button">Get in Touch</button>
+                  <button type="submit" class="btn text-black btn-primary py-3 px-4 contact-button">Get in Touch</button>
                 </div>
               </form>
         </div>
     </div>
 </section>
-<section class="container-fluid">
-    <ul class="list-unstyled d-flex justify-content-center unordered-line">
+<section class="container-fluid w-100 d-flex flex-column justify-content-center p-0">
+    <hr class=" border border-0 w-100  text-black"> 
+    <ul class="list-unstyled d-flex justify-content-center ">
         <li class="p-3">
             <a href="https://github.com/alanluqman">
                 <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
