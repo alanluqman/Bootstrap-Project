@@ -142,3 +142,67 @@ html {
   text-decoration: none;
   margin-top: 38rem;
 }
+.contact-p{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #262626;
+}
+.contact{
+  padding: 120px 0;
+}
+@media screen and (max-width: 578px) {
+  .contact-p{
+    font-size: 29px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .contact-p{
+    font-size: 29px;
+    text-align: center;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .contact-form{
+    font-size: 29px;
+    padding: 2rem;
+  }
+}
+
+.contact-input{
+  border: none;
+  border-bottom: 1px solid #DBD8D7;
+  font-size: 2rem;
+  color: #979493;
+  outline: none;
+}
+.contact-text{
+  font-size: 2rem;
+  color: #979493;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #DBD8D7;
+  background-color: #FBF8F7;
+}
+.contact-button{
+  font-size: 2rem;
+  background: #F55800;
+  border: none;
+}
+.contact-button:hover{
+  background: #f16e21;
+}
+.unordered-line{
+  border-top: 1px solid #505F79;
+}
+@media screen and (max-width: 520px) {
+  .unordered-line{
+    width: 550px;
+  }
+}
