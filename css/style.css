@@ -1,0 +1,254 @@
+html {
+  font-size: 62.5%;
+}
+
+.navbar {
+  background: #3e3c3c;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler {
+  border: 1px solid #fff;
+}
+
+.nav-item {
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1rem 2rem;
+}
+
+.accent-color {
+  color: #f55800;
+}
+
+.heading-title {
+  font-size: 7.2rem;
+  height: fit-content;
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+}
+
+.sub-heading-title {
+  font-size: 3.2rem;
+  height: fit-content;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.heading-description {
+  font-size: 2rem;
+  height: fit-content;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  color: #f4f5f7;
+}
+
+.header-1 {
+  color: #091e42;
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 990px) {
+  .heading-social-links {
+    order: 0;
+  }
+
+  .heading-info {
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .heading-title {
+    font-size: 5.2rem;
+  }
+
+  .sub-heading-title {
+    font-size: 2.4rem;
+  }
+
+  .heading-description {
+    font-size: 1.6rem;
+  }
+}
+
+.hr-line {
+  width: 80%;
+}
+
+.works {
+  padding: 120px 0;
+}
+
+.work-heading-title {
+  font-size: 4rem;
+  font-weight: 400;
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+}
+
+.work-feature-item {
+  height: fit-content;
+  font-size: 1.5rem;
+  font-weight: 500;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.work-see-project {
+  font-size: 2.4rem;
+  font-weight: 700;
+  width: fit-content;
+  height: fit-content;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  background-color: #f55800;
+}
+
+/***************************** Cards****************************** */
+.section-work {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+@media screen and (max-width: 990px) {
+  .section-work {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .section-work {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 6rem;
+  }
+}
+
+.card1 {
+  background-image: url(../images/card1.svg);
+}
+
+.card2 {
+  background-image: url(../images/card2.svg);
+}
+
+.card3 {
+  background-image: url(../images/card3.svg);
+}
+
+.card4 {
+  background-image: url(../images/card4.svg);
+}
+
+.card {
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 43rem;
+}
+
+.card-h5 {
+  font-family: 'Crete Round', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.card-p {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.list-skill {
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.link-project {
+  height: 48px;
+  background: #fc7617;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 38rem;
+}
+
+.contact-p {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #262626;
+}
+
+.contact {
+  padding: 120px 0;
+}
+
+@media screen and (max-width: 578px) {
+  .contact-p {
+    font-size: 29px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .contact-p {
+    font-size: 29px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .contact-form {
+    font-size: 29px;
+    padding: 2rem;
+  }
+}
+
+.contact-input {
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  font-size: 2rem;
+  color: #979493;
+  outline: none;
+}
+
+.contact-text {
+  font-size: 2rem;
+  color: #979493;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #dbd8d7;
+  background-color: #fbf8f7;
+}
+
+.contact-button {
+  font-size: 2rem;
+  background: #f55800;
+  border: none;
+}
+
+.contact-button:hover {
+  background: #f16e21;
+}
+
+.unordered-line {
+  border-top: 1px solid #505f79;
+}
+
+@media screen and (max-width: 520px) {
+  .unordered-line {
+    width: 550px;
+  }
+}
