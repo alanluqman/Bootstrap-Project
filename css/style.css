@@ -49,6 +49,33 @@ html {
   font-family: 'Crete Round';
 }
 
+@media screen and (min-width:990px) {
+  .heading-social-links {
+    order: 0;
+  }
+
+  .heading-info {
+    order: 1;
+  }
+}
+
+@media screen and (max-width:990px) {
+  .heading-title {
+    font-size: 5.2rem;
+  }
+
+  .sub-heading-title {
+    font-size: 2.4rem;
+  }
+
+  .heading-description {
+    font-size: 1.6rem;
+  }
+
+   
+}
+
+
 .hr-line{
   width: 80%;
 }
