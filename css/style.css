@@ -2,7 +2,7 @@ html {
   font-size: 62.5%;
 }
 
-.navbar{
+.navbar {
   background: #3e3c3c;
 }
 
@@ -34,7 +34,6 @@ html {
   font-size: 3.2rem;
   height: fit-content;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
-
 }
 
 .heading-description {
@@ -44,7 +43,7 @@ html {
   color: #f4f5f7;
 }
 
-.header-1{
+.header-1 {
   color: #091E42;
   font-family: 'Crete Round';
 }
@@ -73,12 +72,11 @@ html {
   }
 }
 
-
-.hr-line{
+.hr-line {
   width: 80%;
 }
 
-.works{
+.works {
   padding: 120px 0;
 }
 
@@ -105,58 +103,68 @@ html {
 }
 
 /***************************** Cards****************************** */
-.section-work{
+.section-work {
   display: grid;
   grid-template-columns: repeat(3, auto);
 }
-@media screen and (max-width:990px){
-  .section-work{
+
+@media screen and (max-width: 990px) {
+  .section-work {
     display: grid;
     grid-template-columns: auto auto;
   }
 }
-@media screen and (max-width:520px){
-  .section-work{
+
+@media screen and (max-width: 520px) {
+  .section-work {
     display: grid;
     grid-template-columns: 1fr;
     margin-left: 6rem;
   }
 }
+
 .card1 {
   background-image: url(../images/card1.svg);
 }
+
 .card2 {
   background-image: url(../images/card2.svg);
 }
+
 .card3 {
   background-image: url(../images/card3.svg);
 }
+
 .card4 {
   background-image: url(../images/card4.svg);
 }
+
 .card {
   background-size: cover;
   background-repeat: no-repeat;
   height: 43rem;
 }
-.card-h5{
+.card-h5 {
   font-family: 'Crete Round';
   font-style: normal;
   font-weight: 400;
   font-size: 32px;
   line-height: 44px;
 }
-.card-p{
+
+.card-p {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 24px;
 }
-.list-skill{
+
+.list-skill {
   background: rgba(255, 255, 255, 0.24);
 }
-.link-project{
+
+.link-project {
   height: 48px;
   background: #fc7617;
   font-family: 'Inter';
@@ -172,7 +180,8 @@ html {
   text-decoration: none;
   margin-top: 38rem;
 }
-.contact-p{
+
+.contact-p {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
@@ -180,38 +189,41 @@ html {
   line-height: 52px;
   color: #262626;
 }
-.contact{
+
+.contact {
   padding: 120px 0;
 }
+
 @media screen and (max-width: 578px) {
-  .contact-p{
+  .contact-p {
     font-size: 29px;
     text-align: center;
   }
 }
 
 @media screen and (max-width: 520px) {
-  .contact-p{
+  .contact-p {
     font-size: 29px;
     text-align: center;
   }
 }
 
 @media screen and (max-width: 570px) {
-  .contact-form{
+  .contact-form {
     font-size: 29px;
     padding: 2rem;
   }
 }
 
-.contact-input{
+.contact-input {
   border: none;
   border-bottom: 1px solid #DBD8D7;
   font-size: 2rem;
   color: #979493;
   outline: none;
 }
-.contact-text{
+
+.contact-text {
   font-size: 2rem;
   color: #979493;
   outline: none;
@@ -219,19 +231,23 @@ html {
   border-bottom: 1px solid #DBD8D7;
   background-color: #FBF8F7;
 }
-.contact-button{
+
+.contact-button {
   font-size: 2rem;
   background: #F55800;
   border: none;
 }
-.contact-button:hover{
+
+.contact-button:hover {
   background: #f16e21;
 }
-.unordered-line{
+
+.unordered-line {
   border-top: 1px solid #505F79;
 }
+
 @media screen and (max-width: 520px) {
-  .unordered-line{
+  .unordered-line {
     width: 550px;
   }
 }
